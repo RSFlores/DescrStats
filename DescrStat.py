@@ -20,4 +20,6 @@ def DescrStat(datafile):
     print('Standard deviation of the data is:', data_std)
     print('Variance of the data is:', data_var)
 
-    return data_mean, data_std, data_var
+    return (data_mean, data_std, data_var)
+
+# Hi Josh and Nora, it seems that we downloaded the DescrStat.py before Rick had removed the return line. We added the parantheses in order to submit a pull request. 
